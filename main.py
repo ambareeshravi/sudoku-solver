@@ -116,7 +116,7 @@ class Sudoku:
         return True
 
     def solve(self):
-        for it in range(10000):
+        for it in range(5000000):
             if self.is_solved():
                 print(f"Solved the given Sudoku in {it} iterations! :)")
                 return
